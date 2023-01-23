@@ -18,6 +18,39 @@ body {
     height: 100vh;    
     background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
+    position: relative;
+
+    
+}
+
+.odin-div {
+    background-color:rgba(37, 36, 36, 0.7);
+    position: absolute;
+    top: 12.3%;
+    
+    width: 100%;
+    height: 18vh;
+    /* background-image: url("images/odin-lined.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+img {
+    height: 150px;
+    opacity: 0.8;
+    
 }
 
 .form-div {
@@ -137,8 +170,4 @@ input:valid {
     border: solid 1px lightgreen;
 }
 
-input:focus {    
-    
-    
-}
 
