@@ -30,13 +30,14 @@ body {
 }
 
 .form-div div {
-    padding: 2rem 6rem;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
 }
 
 .form-header {
     background-color: var(--background-gray);
     height: 30vh;
-    line-height: 2.3rem;
+    
     
     
 
@@ -46,10 +47,12 @@ body {
     font-size: 23px;    
     font-weight: 600;
     width: 60%;
+   
 }
 
 .form-body {
     height: 40vh;
+    
 
 }
 
@@ -67,18 +70,24 @@ button {
     border: none;
     color: white;
     border-radius: 6px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 
     transition: .3s ease-in;
+    border: 1px solid var(--button-green);
+    
 
 }
 
 button:hover {
-    transform: scale(1.1);
+    
     border: 1px solid var(--button-green);
     color: var(--button-green);
     background-color: var(--background-gray);
     cursor: pointer;
+
+    transform: scale(1.1);
+
+    
 
 }
 
@@ -95,3 +104,41 @@ p a:hover {
     transform: scale(1.1);
 
 }
+
+form {
+    display: flex;
+    
+}
+
+ul {
+    margin-top: 2rem;
+    margin-right: 5rem;
+    
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 1.8rem;
+}
+
+input {
+    padding: .3rem .5rem;
+}
+
+input:invalid {
+    border: solid 1px red;
+}
+
+input:placeholder-shown {
+    border: solid 1px black;
+}
+
+input:valid {
+    border: solid 1px lightgreen;
+}
+
+input:focus {    
+    
+    
+}
+
